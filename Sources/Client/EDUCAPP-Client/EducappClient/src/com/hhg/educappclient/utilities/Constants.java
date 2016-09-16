@@ -1,0 +1,23 @@
+package com.hhg.educappclient.utilities;
+
+
+public class Constants {
+	public enum PRIVILEGES_DEFINITIONS{
+		AUTH_COURSES_LIST,
+		AUTH_COURSES_JOIN,
+		AUTH_COURSES_CREATE,
+		AUTH_USERS_LIST,
+		AUTH_CREATE_ENROLLMENTS,
+		AUTH_CREATE_ASSISTANCE_CONTROL,
+		AUTH_CREATE_EXAMS,
+		AUTH_RETRIEVE_SELF_ALERTS,
+		AUTH_RETRIEVE_OTHERS_PROFILE,
+		AUTH_ALTER_SELF_PROFILE,
+		AUTH_RETRIEVE_SELF_EXAMS,
+		AUTH_ALTER_LEGAL_TUTORS;
+
+		public static String getIntentString(PRIVILEGES_DEFINITIONS object) {
+			return "com.hhg.educappclient."+object.toString();
+		}
+	}
+}

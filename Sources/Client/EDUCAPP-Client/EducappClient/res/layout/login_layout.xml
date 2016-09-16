@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical"
+    android:background="@drawable/fondo_login_app" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="@drawable/box_datos_login_app" >
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="65dp"
+            android:background="#AAFFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/login_username_hint"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:background="#AAFFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_login_button"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:background="#35FFFFFF"
+            android:minHeight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingTop="10dp"
+            android:text="@string/login_button_login_text"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/login_signup_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="2dp"
+            android:background="#35FFFFFF"
+            android:gravity="center"
+            android:minHeight="5dp"
+            android:padding="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingTop="10dp"
+            android:text="@string/login_button_signup_text"
+            android:textSize="12sp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">Educapp</string>
+    
+    <!-- Login screen messages -->
+    <string name="login_action">Log in</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_button_login_text">Log in</string>
+    <string name="login_button_signup_text">I\'m a new user&#8230;</string>
+
+    <!-- Courses screen messages -->
+    <string name="courselist_results_ok">Courses retrieved</string>
+    <string name="courselist_no_results">No courses found!</string>
+    <string name="course_add_tag">Type course Tag (must be unique)</string>
+    <string name="course_add_descriptive_name">Course full descriptive name</string>
+    <string name="course_add_description">Write a summary of the course.\nIt can be divided in several lines, if so required.</string>
+    <string name="course_add_max_attendants">Max number of students</string>
+    <string name="course_add_start_date">Course begins on&#8230;</string>
+    <string name="course_add_end_date">Course finishes on&#8230;</string>
+    <string name="course_add_ok_button">Confirm creation</string>
+    <string name="course_add_number_error">Wrong value provided for max students</string>
+    
+    <!-- Drawer Layout string resources -->
+    <string name="drawer_access_courses_list">Explore courses</string>
+    <string name="drawer_access_users_list">Registered users</string>
+    <string name="drawer_generate_access_control">Create new assistance control</string>
+    <string name="drawer_access_profile">Your profile</string>
+    <string name="drawer_access_notifications">Notifications</string>
+
+    <!-- Generic screen messages -->
+    <string name="results_connection_error">Connection error.</string>
+    <string name="results_ok">Operation success</string>
+    <string name="results_invalid_user">Wrong credentials.</string>
+    <string name="national_identity_number">NIF:</string>
+    <string name="enrollment">Enrollment:</string>
+    <string name="absent">Absent?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    
+    <!-- Menu titles -->
+    <string name="menu_courselist_add_course">Create new&#8230;</string>
+    <string name="course_list_context_assistance">Fill assistance control</string>
+    <string name="course_list_context_join">Join this course</string>
+    
+    
+    
+    <string name="generic_submit">Submit</string>
+    <string name="generic_go_back">Cancel</string>
+    <string name="profile_bio_title">Who am I?</string>
+    <string name="notification_list_empty">We found no messages for you here.</string>
+    <string name="user_list_empty">No registered users. How can you see this message?</string>
+    <string name="profile_empty_bio_placeholder">This user has no bio redacted. Encourage him to write one!</string>
+    <string name="sent_by">Sent by:</string>
+    <string name="notification_about">About:</string>
+    <string name="credits_subtitle">Day to day course management tool</string>
+    <string name="credits_about">Final project for \'CFGS Desarrollo de aplicaciones multiplataforma\' (Multiplatform applications development SVD)\nHarold Hormaechea Garcia\nI.E.S. Augusto Gonzalez de Linares (2014-2016)\n\nCredits:
+        	\n - Fanny Carmona (color palette design, logo design, login image)
+        	\n - Student Icon made by Freepik from www.flaticon.com (Flaticon Basic License)</string>
+    
+</resources>

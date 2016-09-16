@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_blue" >
+
+    <TextView
+        android:id="@+id/course_list_element_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="CourseReadableName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/course_list_element_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/course_list_element_full_name"
+        android:text="CourseTag"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/course_list_element_begin_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course_list_element_tag"
+        android:text="BeginDate" />
+
+    <TextView
+        android:id="@+id/course_list_element_dates_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/course_list_element_begin_date"
+        android:layout_alignBottom="@+id/course_list_element_begin_date"
+        android:layout_toRightOf="@+id/course_list_element_begin_date"
+        android:text=" -- " />
+
+    <TextView
+        android:id="@+id/course_list_element_finish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/course_list_element_dates_separator"
+        android:layout_alignBottom="@+id/course_list_element_dates_separator"
+        android:layout_toRightOf="@+id/course_list_element_dates_separator"
+        android:text="EndDate" />
+
+    <TextView
+        android:id="@+id/course_list_element_enrollment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/course_list_element_begin_date"
+        android:text="EnrollmentStatus" />
+
+</RelativeLayout>

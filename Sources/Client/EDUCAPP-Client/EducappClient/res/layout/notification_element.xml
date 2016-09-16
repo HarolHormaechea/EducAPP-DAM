@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|right"
+    android:background="@drawable/sky_blue"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/notification_sent_by_static_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/notification_date"
+        android:text="@string/sent_by"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/notification_about_static_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/notification_sent_by_static_label"
+        android:text="@string/notification_about"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/notification_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/notification_sent_by_static_label"
+        android:layout_toRightOf="@+id/notification_sent_by_static_label"
+        android:text="AUTHORNAME"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/notification_about_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notification_sent_by_static_label"
+        android:layout_toRightOf="@+id/notification_sent_by_static_label"
+        android:text="STUDENTNAME"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/notification_text_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/notification_about_static_label"
+        android:layout_marginTop="10dp"
+        android:text="DETAILS OF MESSAGE" />
+
+    <TextView
+        android:id="@+id/notification_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="FULL DATE"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

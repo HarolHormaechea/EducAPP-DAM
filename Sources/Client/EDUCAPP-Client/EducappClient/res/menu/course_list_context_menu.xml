@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/course_list_context_assistance" android:title="@string/course_list_context_assistance"></item>
+    <item android:id="@+id/course_list_context_join" android:title="@string/course_list_context_join"></item>
+    
+
+</menu>
